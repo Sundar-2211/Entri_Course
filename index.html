@@ -3,64 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!--using internal style sheet-->
-    <style>
-        table{
-           height: 300px;
-           width: 70%;
-           margin-left: 18%;
-             
-        }   
-        th,tr,td{
-           padding: 10px;
-           border-color: green;
-          
-        }
-        th{
-            background-color: yellow;
-        }
-    </style>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <h4 align="center">Basic Course</h4>
-
-    <table border="1">
-        <th>S.NO</th>
-        <th> Cousre Name</th>
-         <th>Fees</th>
-         <th>Duration</th>
-         <th> Eligbility</th>
-         <tr>
-            <td>1</td>
-            <td>CCC - Course on Computer Concept </td>
-            <td> 2000</td>
-            <td>3 Months</td>
-            <td>10 <sup>th</sup></td>
-         </tr>
-         <tr>
-            <td>2</td>
-            <td>CCA - Course on Computer Application </td>
-            <td> 2000</td>
-            <td>3 Months</td>
-            <td>10 <sup>th</sup></td>
-         </tr>
-         <tr>
-            <td>3</td>
-            <td>Tally  </td>
-            <td> 3000</td>
-            <td>3 Months</td>
-            <td>10 <sup>th</sup></td>
-         </tr>
-         <tr>
-            <td>3</td>
-            <td>O Level  </td>
-            <td> 3000</td>
-            <td>1 Year</td>
-            <td>12 <sup>th</sup></td>
-         </tr>
+    <header>
+        <h1 >Port<span style="color: green;">folio</span> </h1>
+        <ul style="margin-left: 30%;">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SKILL</a></li>
+          <li><a href="#">PROJECT</a></li>
+          <li><a href="#">CONTACT</a></li>
          
-    </table>
+        </ul>
+    </header>
+ <div class="content">
+    <h2> Hello! </h2>
+    <h2 > I am <span style="color: rgba(255, 68, 0, 0.931);">Sundar</span> </h2>
+ 
+    <h2>Fullstack Developer</h2>
+    <p style="font-size:large; font-weight: bold; color: black;">
+        It is a long established fact that a reader will be distracted by the
+        <br> <br>readable content of a page when looking at its layout.
+    </p>
+    <!--using inline style>-->
+    <section style="padding-top: 40px;">
+        <i align="center"class="fa fa-facebook-f" style="font-size:35px;color:blue" ></i>
+        <i align="center"class="fa fa-instagram" style="font-size:35px;color:red"></i>
+        <i  align="center"class="fa fa-whatsapp" style="font-size:35px;color:green"></i>
+        <i  align="center"class="fa fa-youtube-play" style="font-size:35px;color:red"></i>
+       </section>
+
+    <div class="btn">
+        <button style="margin-left: 10px;"> <a href="#"> Resume</a> </button>
+        <button style="margin-left: 130px;"> <a href="#">Hire Me</a> </button>
+    </div>
+  
+ </div>
+ <div class="img">
+    <img src="IMG_20240224_131423_836.jpg" width="400" style="padding:120px; padding-left: 80px;border-radius: 100%;border-color: orange" >
+ </div>
+ <hr >
 </body>
 </html>
